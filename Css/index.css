@@ -1,0 +1,146 @@
+*{
+  padding: 0;
+}
+
+body{
+  height: 100vh;
+  background-color: gray;
+}
+
+h1 {
+    text-align: center;
+    justify-content: center;
+    font-size: 40px;
+    margin-top: 3%;
+    color: black;
+}
+
+h2 {
+    text-align: center;
+    justify-content: center;
+    font-size: 10px;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    color: black;
+}
+
+.card-title {
+  font-size: 2rem;
+}
+
+#container{
+  margin:auto;
+  display: flex;
+  color:#f8f9fa;
+  flex-direction: column;
+  width:500px;
+  box-shadow: 1px 2px 71px -6px rgba(0,0,0,0.67);
+  height:fit-content;
+  font-family: 'Ubuntu', sans-serif;
+  background-color:transparent;
+  padding:50px 20px;
+  border-radius: 10px;
+}
+
+#Heading{
+  text-align: center;
+  font-size: 3em;
+  font-weight: 900;
+  color: white;
+}
+
+
+label{
+  font-size: 1.5em;
+  font-weight: 500;
+  margin:10px 0px;
+  color: red;
+}
+
+.form-control {
+  height: 4em;
+}
+
+.input-button {
+  margin-left: 38%;
+}
+
+
+.row{
+  width:100%;
+  height:fit-content;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50px;
+  justify-content: center;
+  text-align: center;
+  margin-top: 10%;
+}
+
+
+
+button{
+  width:fit-content;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin:20px auto;
+  padding:10px 20px;
+  outline: none;
+  border: none;
+  font-weight: 700;
+  font-size: 1em;
+  cursor: pointer;
+  transition-duration: 0.25s;
+}
+
+.input-button {
+  border-radius: 40%;
+  margin-top: 3%;
+}
+
+
+button:hover{
+  background-color: gray;
+}
+
+
+.UserExist {
+    text-align: center;
+    justify-content: center;
+    color: red;
+    font-size: 20px;
+    margin-bottom: 1%;
+    margin-top: 2%;
+  }
+
+.form-group {
+  text-align: center;
+  justify-content: center;
+}
+
+.titre {
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 3%;
+  padding-top: 2%;
+}
+
+.card-body {
+  background-image: url('../images/90719.jpg');
+}
+
+
+.card-title {
+  padding-top: 3%;
+}
+
+
+
+
+
+
+
+  
+
+
